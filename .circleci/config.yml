@@ -42,7 +42,5 @@ workflows:
     jobs:
       - backend_ci
       - frontend_ci
-      - deploy_to_ec2:
-          requires:
-            - backend_ci
+      
       
