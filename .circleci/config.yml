@@ -45,4 +45,4 @@ workflows:
       - deploy_to_ec2:
           requires:
             - backend_ci
-            - frontend_ci
+      
